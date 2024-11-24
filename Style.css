@@ -1,0 +1,49 @@
+body {
+    background-color: lemonchiffon;
+}
+
+#myPhoto {
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: calc(2rem + 0.2vw);
+}
+
+h2 {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+ul.body {
+    text-align: left;
+}
+
+ul > ul {
+    color: rgb(180, 75, 75);
+}
+
+a:hover {
+    color: rgb(255,215,0) !important;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.leftSide {
+    width: 30%;
+}
+.rightSide {
+    width: 30%;
+    margin-left: auto;
+}
+.rightSide > img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
